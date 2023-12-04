@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# slide-20231206-findy
 
-To start the slide show:
+[ドキュメント管理を制する 陳腐化を防ぐための実践事例 Lunch LT \- connpass](https://findy.connpass.com/event/302508/)で登壇したスライドです。
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+GitHub Pagesで[公開](https://yuheifujita.github.io/slide-20231206-findy)しています。
