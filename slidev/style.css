@@ -1,0 +1,38 @@
+p,
+li,
+code,
+table {
+  font-size: 24px;
+}
+
+code {
+  line-height: normal;
+}
+
+footer {
+  font-size: 12px;
+}
+
+.reference {
+  font-size: 12px;
+}
+
+ul.reference {
+  list-style-type: none;
+}
+
+small {
+  font-size: 12px;
+}
+
+.blue {
+  color: #5383ec;
+}
+
+.yellow {
+  color: #f1bf42;
+}
+
+.green {
+  color: #58a65c;
+}

@@ -5,6 +5,7 @@ import markdownItPlamtuml from "markdown-it-plantuml";
 export default defineConfig({
   title: "タスク管理アプリ",
   description: "ドキュメント",
+  base: "/slide-20231206-findy/vitepress/",
   markdown: {
     config: (md) => {
       md.use(markdownItPlamtuml);

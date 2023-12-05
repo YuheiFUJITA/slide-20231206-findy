@@ -27,13 +27,19 @@ jobs:
           node-version: "lts/*"
 
       - name: Install dependencies
-        run: npm install
+        run: cd ./slidev && npm install
 
       - name: Install slidev
         run: npm i -g @slidev/cli
 
       - name: Build
-        run: npm run build -- --base /slide-20231206-findy/
+        run: cd ./slidev && npm run build -- --base /slide-20231206-findy/ --out ../dist
+
+      - name: Install dependencies
+        run: cd ./vitepress && npm install
+
+      - name: Build vitepress
+        run: cd ./vitepress && npm run docs:build && mv docs/.vitepress/dist ../dist/vitepress
 
       - uses: actions/configure-pages@v3
 
