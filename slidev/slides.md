@@ -61,7 +61,7 @@ layout: center
 
 ![Alt text](/images/valuedesign.png)
 
-![Alt text](images/qrcode_www.valuedesign.jp.png)
+![Alt text](/images/qrcode_www.valuedesign.jp.png)
 
 </div>
 <div class="col-span-2">
