@@ -56,7 +56,29 @@ layout: center
 
 # 会社紹介
 
-なんか話す
+<div class="grid grid-cols-3 gap-4">
+<div class="col-span-1">
+
+![Alt text](/images/valuedesign.png)
+
+![Alt text](images/qrcode_www.valuedesign.jp.png)
+
+</div>
+<div class="col-span-2">
+
+## お客様の売上を拡大する、<br>No.1のパートナーでありたい
+
+|||
+|---|---|
+|会社名|株式会社バリューデザイン|
+|所在地|東京都中央区京橋3-1-1 東京スクエアガーデン14階|
+|設立|2006-07-26|
+|代表取締役社長|林　秀治（Shuji Hayashi）|
+
+</div>
+</div>
+
+
 
 ---
 layout: statement
