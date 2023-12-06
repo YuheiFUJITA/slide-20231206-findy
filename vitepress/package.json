@@ -1,11 +1,16 @@
 {
   "devDependencies": {
+    "@documate/documate": "^0.2.1",
     "markdown-it-plantuml": "^1.4.1",
     "vitepress": "^1.0.0-rc.31"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "documate:upload": "documate upload"
+  },
+  "dependencies": {
+    "@documate/vue": "^0.3.1"
   }
 }
